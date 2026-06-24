@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "index.html",
+    "about.html",
+    "our-factory.html",
+    "quality-legality.html",
+    "products.html",
+    "shipping-terms.html",
+    "returns-claims.html",
+    "contact.html",
+    "articles/caring-for-solid-wood-furniture.html",
+    "articles/mortise-and-tenon-joinery.html"
+  ],
+  "assets": [
+    "logo.webp",
+    "hero-table.webp",
+    "workshop-table.webp",
+    "timber-work.webp",
+    "craft-team.webp",
+    "container-loading.webp",
+    "factory-shipment.webp",
+    "grenada-project.webp",
+    "grenada-bedroom.webp",
+    "hilton-bench.webp",
+    "hilton-table.webp",
+    "product-bed.webp",
+    "product-round-table.webp",
+    "product-bench.webp",
+    "product-lounge.webp"
+  ],
+  "missing_links": []
+}
