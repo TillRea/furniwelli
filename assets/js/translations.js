@@ -6,6 +6,7 @@ const translationEntries = {
   "nav.factory": ["Our Factory", "Pabrik Kami"],
   "nav.quality": ["Quality & Legality", "Kualitas & Legalitas"],
   "nav.products": ["Products", "Produk"],
+  "nav.resources": ["Resources", "Sumber Daya"],
   "nav.shipping": ["Shipping & Terms", "Pengiriman & Ketentuan"],
   "nav.returns": ["Returns & Claims", "Retur & Klaim"],
   "nav.contact": ["Contact", "Kontak"],

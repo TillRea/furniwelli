@@ -44,3 +44,30 @@ document.addEventListener('furniwell:languagechange', () => {
   if (!toggle || !menu) return;
   toggle.setAttribute('aria-label', navigationLabel(menu.classList.contains('is-open')));
 });
+
+
+// Dropdown toggle logic
+document.querySelectorAll('.dropdown-toggle').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const dropdown = btn.closest('.dropdown');
+    const isActive = dropdown.classList.contains('is-active');
+    
+    document.querySelectorAll('.dropdown').forEach(d => {
+      d.classList.remove('is-active');
+      d.querySelector('.dropdown-toggle').setAttribute('aria-expanded', 'false');
+    });
+
+    if (!isActive) {
+      dropdown.classList.add('is-active');
+      btn.setAttribute('aria-expanded', 'true');
+    }
+  });
+});
+
+document.addEventListener('click', () => {
+  document.querySelectorAll('.dropdown').forEach(d => {
+    d.classList.remove('is-active');
+    d.querySelector('.dropdown-toggle').setAttribute('aria-expanded', 'false');
+  });
+});
