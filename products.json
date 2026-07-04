@@ -1,0 +1,97 @@
+[
+  {
+    "id": "custom-made-wood-bed",
+    "title": "Custom Made Wood Bed",
+    "kicker": "Products",
+    "cover_image": "assets\\images\\products\\Custom Made Wood Bed\\WhatsApp Image 2026-07-02 at 21.00.43 (1).jpeg",
+    "gallery": [
+      "assets\\images\\products\\Custom Made Wood Bed\\WhatsApp Image 2026-07-02 at 21.00.43 (1).jpeg",
+      "assets\\images\\products\\Custom Made Wood Bed\\WhatsApp Image 2026-07-02 at 21.00.43.jpeg",
+      "assets\\images\\products\\Custom Made Wood Bed\\WhatsApp Image 2026-07-02 at 21.00.44.jpeg"
+    ],
+    "photo_count": 3,
+    "description": ""
+  },
+  {
+    "id": "mahogany-poster-bed",
+    "title": "Mahogany Poster Bed",
+    "kicker": "Products",
+    "cover_image": "assets\\images\\products\\Mahogany Poster Bed\\WhatsApp Image 2026-07-02 at 21.00.14 (1).jpeg",
+    "gallery": [
+      "assets\\images\\products\\Mahogany Poster Bed\\WhatsApp Image 2026-07-02 at 21.00.14 (1).jpeg",
+      "assets\\images\\products\\Mahogany Poster Bed\\WhatsApp Image 2026-07-02 at 21.00.14.jpeg"
+    ],
+    "photo_count": 2,
+    "description": ""
+  },
+  {
+    "id": "modern-sofa-bed",
+    "title": "modern sofa bed",
+    "kicker": "Products",
+    "cover_image": "assets\\images\\products\\modern sofa bed\\WhatsApp Image 2026-07-02 at 20.56.38 1.jpeg",
+    "gallery": [
+      "assets\\images\\products\\modern sofa bed\\WhatsApp Image 2026-07-02 at 20.56.38 1.jpeg",
+      "assets\\images\\products\\modern sofa bed\\WhatsApp Image 2026-07-02 at 20.56.38.jpeg",
+      "assets\\images\\products\\modern sofa bed\\WhatsApp Image 2026-07-02 at 20.56.39.jpeg",
+      "assets\\images\\products\\modern sofa bed\\WhatsApp Image 2026-07-02 at 20.56.40.jpeg"
+    ],
+    "photo_count": 4,
+    "description": ""
+  },
+  {
+    "id": "suar-big-custom-table",
+    "title": "Suar Big Custom Table",
+    "kicker": "Products",
+    "cover_image": "assets\\images\\products\\Suar Big Custom Table\\WhatsApp Image 2026-07-02 at 20.57.04.jpeg",
+    "gallery": [
+      "assets\\images\\products\\Suar Big Custom Table\\WhatsApp Image 2026-07-02 at 20.57.04.jpeg",
+      "assets\\images\\products\\Suar Big Custom Table\\WhatsApp Image 2026-07-02 at 20.57.05 (1).jpeg",
+      "assets\\images\\products\\Suar Big Custom Table\\WhatsApp Image 2026-07-02 at 20.57.05.jpeg",
+      "assets\\images\\products\\Suar Big Custom Table\\WhatsApp Image 2026-07-02 at 20.57.06.jpeg"
+    ],
+    "photo_count": 4,
+    "description": ""
+  },
+  {
+    "id": "synthetic-rattan-furniture",
+    "title": "Synthetic Rattan Furniture",
+    "kicker": "Products",
+    "cover_image": "assets\\images\\products\\Synthetic Rattan Furniture\\WhatsApp Image 2026-07-02 at 21.47.01 (1).jpeg",
+    "gallery": [
+      "assets\\images\\products\\Synthetic Rattan Furniture\\WhatsApp Image 2026-07-02 at 21.47.01 (1).jpeg",
+      "assets\\images\\products\\Synthetic Rattan Furniture\\WhatsApp Image 2026-07-02 at 21.47.01.jpeg",
+      "assets\\images\\products\\Synthetic Rattan Furniture\\WhatsApp Image 2026-07-02 at 21.47.02 (1).jpeg",
+      "assets\\images\\products\\Synthetic Rattan Furniture\\WhatsApp Image 2026-07-02 at 21.47.02 (2).jpeg",
+      "assets\\images\\products\\Synthetic Rattan Furniture\\WhatsApp Image 2026-07-02 at 21.47.02.jpeg",
+      "assets\\images\\products\\Synthetic Rattan Furniture\\WhatsApp Image 2026-07-02 at 21.47.03 (1).jpeg",
+      "assets\\images\\products\\Synthetic Rattan Furniture\\WhatsApp Image 2026-07-02 at 21.47.03.jpeg"
+    ],
+    "photo_count": 7,
+    "description": ""
+  },
+  {
+    "id": "teak-book-modern-shelves",
+    "title": "teak book modern shelves",
+    "kicker": "Products",
+    "cover_image": "assets\\images\\products\\teak book modern shelves\\WhatsApp Image 2026-07-02 at 20.59.36 (1).jpeg",
+    "gallery": [
+      "assets\\images\\products\\teak book modern shelves\\WhatsApp Image 2026-07-02 at 20.59.36 (1).jpeg",
+      "assets\\images\\products\\teak book modern shelves\\WhatsApp Image 2026-07-02 at 20.59.36.jpeg"
+    ],
+    "photo_count": 2,
+    "description": ""
+  },
+  {
+    "id": "teak-root-coffee-table",
+    "title": "Teak Root Coffee Table",
+    "kicker": "Products",
+    "cover_image": "assets\\images\\products\\Teak Root Coffee Table\\WhatsApp Image 2026-07-02 at 20.59.03.jpeg",
+    "gallery": [
+      "assets\\images\\products\\Teak Root Coffee Table\\WhatsApp Image 2026-07-02 at 20.59.03.jpeg",
+      "assets\\images\\products\\Teak Root Coffee Table\\WhatsApp Image 2026-07-02 at 20.59.04 (1).jpeg",
+      "assets\\images\\products\\Teak Root Coffee Table\\WhatsApp Image 2026-07-02 at 20.59.04.jpeg"
+    ],
+    "photo_count": 3,
+    "description": ""
+  }
+]

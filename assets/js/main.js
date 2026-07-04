@@ -71,3 +71,11 @@ document.addEventListener('click', () => {
     d.querySelector('.dropdown-toggle').setAttribute('aria-expanded', 'false');
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  if (typeof GalleryRenderer !== 'undefined') {
+    GalleryRenderer.renderGallery("products-gallery-grid", "products.json", "products");
+    GalleryRenderer.renderGallery("custom-furniture-grid", "custom-furniture.json", "custom-furniture");
+    GalleryRenderer.renderGallery("featured-products-grid", "products.json", "products", 6);
+  }
+});
