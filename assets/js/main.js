@@ -79,3 +79,81 @@ document.addEventListener("DOMContentLoaded", () => {
     GalleryRenderer.renderGallery("featured-products-grid", "products.json", "products", 6);
   }
 });
+
+// Lightbox Module
+const Lightbox = (() => {
+  let currentIndex = 0;
+  let galleryImages = [];
+
+  const createLightbox = () => {
+    if (document.querySelector('.lightbox')) return;
+    const markup = `
+      <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image gallery lightbox">
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous image">&larr;</button>
+        <div class="lightbox-content">
+          <img src="" alt="Lightbox image">
+        </div>
+        <button class="lightbox-nav lightbox-next" aria-label="Next image">&rarr;</button>
+      </div>
+    `;
+    document.body.insertAdjacentHTML('beforeend', markup);
+
+    const lb = document.querySelector('.lightbox');
+    lb.addEventListener('click', (e) => {
+      if (e.target.classList.contains('lightbox') || e.target.classList.contains('lightbox-close')) {
+        close();
+      }
+    });
+
+    document.querySelector('.lightbox-prev').addEventListener('click', prev);
+    document.querySelector('.lightbox-next').addEventListener('click', next);
+
+    document.addEventListener('keydown', (e) => {
+      if (!lb.classList.contains('is-open')) return;
+      if (e.key === 'Escape') close();
+      if (e.key === 'ArrowLeft') prev();
+      if (e.key === 'ArrowRight') next();
+    });
+  };
+
+  const open = (index) => {
+    currentIndex = index;
+    const lb = document.querySelector('.lightbox');
+    const img = lb.querySelector('img');
+    img.src = galleryImages[currentIndex].src;
+    img.alt = galleryImages[currentIndex].alt || 'Gallery image';
+    lb.classList.add('is-open');
+  };
+
+  const close = () => {
+    document.querySelector('.lightbox').classList.remove('is-open');
+  };
+
+  const next = () => {
+    currentIndex = (currentIndex + 1) % galleryImages.length;
+    open(currentIndex);
+  };
+
+  const prev = () => {
+    currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+    open(currentIndex);
+  };
+
+  const init = (selector) => {
+    galleryImages = Array.from(document.querySelectorAll(selector));
+    if (galleryImages.length === 0) return;
+    
+    createLightbox();
+    
+    galleryImages.forEach((img, index) => {
+      img.addEventListener('click', () => open(index));
+    });
+  };
+
+  return { init };
+})();
+
+document.addEventListener("DOMContentLoaded", () => {
+  Lightbox.init('.gallery-grid img');
+});
